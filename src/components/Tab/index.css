@@ -1,0 +1,19 @@
+.tab-container {
+    margin: 0 15px 20px;
+}
+
+.tab-container img {
+    max-width: 100px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.tab-section {
+    margin-top: 12px;
+}
+
+@media screen and (max-width:512px) {
+    .tab-container img {
+        width: 50px;
+    }
+}

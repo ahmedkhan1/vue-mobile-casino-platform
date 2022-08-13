@@ -1,0 +1,22 @@
+
+.game-carousel-container > h5 {
+    padding: 15px 0;
+}
+
+.game-carousel-container {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.carousel-cell {
+    width: 145px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.carousel-cell img {
+    object-fit: cover;
+    width: 145px;
+    height: 145px;
+    border-radius: 11px;
+}

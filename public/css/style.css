@@ -1,0 +1,38 @@
+/**
+* App: Light house test app
+* Author: Ahmed khan
+* Version: 1.0.0
+*----------------------
+*/
+
+@font-face {
+    font-family: customFonts;
+    src:  url("../fonts/PingFang_SC_Regular.ttf");
+}
+
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #edb845;
+    --secondary-color: #0f0f0f;
+}
+  
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, a, span {
+    font-family: customFonts;
+    color:  var(--primary-color) !important;
+}
+
+
+html body {
+    font-family: customFonts;
+    background-color: var(--secondary-color);
+    height: 100%;
+}
+

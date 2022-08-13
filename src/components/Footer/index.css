@@ -1,0 +1,36 @@
+.footer-container {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 120px;
+}
+
+.footer-items picture {
+    display: flex;
+}
+
+.footer-container img {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:751px) {
+    .footer-items {
+        height: 90px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .footer-items {
+        height: 60px;
+    }
+}

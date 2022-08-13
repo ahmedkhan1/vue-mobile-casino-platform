@@ -1,0 +1,106 @@
+.game-menu-content {
+  display: flex;
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.game-list-section{
+  margin-right: 15px;
+}
+
+.game-list-items {
+  margin: 10px 0 5px 0;
+  position: relative;
+}
+
+.game-list-items > img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.wallet-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.game-menu-header {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: space-between;
+}
+
+.user-ranks {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.user-ranks-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-ranks > span,
+.user-wallet > span:nth-child(1),
+.music-container > span
+{
+  color: #8b8780 !important;
+}
+
+.user-details,
+.user-wallet {
+  display: flex;
+}
+
+.user-details {
+  margin-right: 10px;
+}
+
+.user-wallet > span {
+  line-height: 20px;
+  /* height: 9px; */
+}
+
+.crown-container{
+  margin: 0 5px;
+}
+
+.user-ranks,
+.user-wallet {
+  font-size: 4vw;
+}
+
+.music-container {
+  width: 309px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.music-container > picture {
+  margin-right: 4px;
+}
+
+.wallet-container img {
+  width: 50px;
+}
+
+.separaotor-container {
+  margin: 0 10px;
+}
+
+@media screen and (max-width:650px) {
+  .wallet-container {
+    align-items: flex-start;
+  }
+  .user-ranks-details-container {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:467px) {
+  .music-container > span {
+    font-size: 3vw;
+  }
+}
